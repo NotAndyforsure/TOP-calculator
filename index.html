@@ -4,7 +4,7 @@
     <head>
         <title>Calculator</title>
         <link href="index.css" rel="stylesheet" type="text/css">
-        <script src="inddex.js" defer></script>
+        <script src="index.js" defer></script>
         <meta charset="utf-8">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,8 +38,8 @@
                         <div class="cell" id="cell-1">1</div> 
                         <div class="cell" id="cell-2">2</div> 
                         <div class="cell" id="cell-3">3</div> 
-                        <div class="cell" id="cell-4">4</div> 
-                        <div class="cell" id="cell-c">C</div> 
+                        <div class="cell" id="cell-d" data-value="3">D</div>
+                        <div class="cell" id="cell-c" data-value="4">C</div> 
 
                     </div> 
 
@@ -48,24 +48,24 @@
 
                     <div class="row" id="row-2">
 
+                        <div class="cell" id="cell-4">4</div> 
                         <div class="cell" id="cell-5">5</div> 
                         <div class="cell" id="cell-6">6</div> 
-                        <div class="cell" id="cell-7">7</div> 
-                        <div class="cell" id="cell-plus">+</div> 
-                        <div class="cell" id="cell-minus">-</div> 
-
+                        <div class="cell" id="cell-plus" data-value="1">+</div> 
+                        <div class="cell" id="cell-minus" data-value="1">-</div> 
+                      
                     </div> 
 
 
 
 
                     <div class="row" id="row-3">
-
+                        <div class="cell" id="cell-7">7</div> 
                         <div class="cell" id="cell-8">8</div> 
                         <div class="cell" id="cell-9">9</div> 
-                        <div class="cell" id="cell-0">0</div> 
-                        <div class="cell" id="cell-div">÷</div> 
-                        <div class="cell" id="cell-mult">x</div> 
+                        <div class="cell" id="cell-mult" data-value="1">x</div> 
+                        <div class="cell" id="cell-d" data-value="1">÷</div> 
+                        
                         
                     </div> 
 
@@ -73,9 +73,11 @@
 
                     <div class="row" id="row-4">
 
-                        <div class="cell" id="cell-per">%</div> 
-                        <div class="cell" id="cell-point">.</div> 
-                        <div class="cell" id="cell-equal">=</div> 
+                        <div class="cell" id="cell-negative">(-)</div> 
+                        <div class="cell" id="cell-0">0</div> 
+                        <div class="cell" id="cell-point" >.</div> 
+                        <div class="cell" id="cell-per" data-value="1">%</div> 
+                        <div class="cell" id="cell-equal" data-value="2">=</div> 
 
                     </div> 
 
