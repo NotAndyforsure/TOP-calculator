@@ -97,7 +97,8 @@ footer{
     border-right:1px solid rgba(37, 33, 20);
     padding-right:5px;
     background-color:rgb(35, 43, 21);
-
+    contain:content;
+    
 
 
 }
@@ -121,6 +122,7 @@ footer{
     padding-right:5px;
     padding-bottom:5px;
     background-color:rgb(35, 43, 21);
+    contain:content;
 }
 
 
