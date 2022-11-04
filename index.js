@@ -338,14 +338,14 @@ button.forEach((ele)=>
 
                 if(result>=0){
 
-                    res.textContent=`${result}`
+                    res.textContent=result.toFixed(2)
                     howMannyAriSymb=0
                     screen.textContent=""
                     negVar=""
                     wait="off"
                 }else{
 
-                    let negResult=result.toString()
+                    let negResult=result.toFixed(2)
 
                     res.textContent=`(-)${negResult.substring(1,negResult.length)}`
                     howMannyAriSymb=0
